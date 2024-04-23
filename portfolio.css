@@ -29,29 +29,43 @@ body {
     /* pointer-events: none; Allow clicking through */
 }
 
+.title p {
+    margin-top: -20vh;
+}
 
 .title h1 {
-    margin: 20px 0;
+    font-size: 3rem; /* Larger font size */
+    margin-bottom: 20px; /* Add margin to separate from the button */
+}
+
+.title a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add margin between the button and links */
 }
 
 .title ul {
     list-style-type: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 0;
 }
 
 .title ul li {
     display: inline-block;
-    margin-right: 20px;
-    font-weight: bold;
+    margin-right: 10px; /* Adjust margin between buttons */
 }
 
 .title ul li:last-child {
-    margin-right: 0;
+    margin-right: 0; /* Remove margin from last button */
 }
 
 .HTML-Projects {
-    margin-top: 140vh;
+    margin-top: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,6 +117,7 @@ body {
 
 .project-info {
     margin-top: auto;
+    text-align: left;
     flex: 1;
     padding: 20px;
     background-color: #fff;

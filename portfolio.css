@@ -90,8 +90,8 @@ body {
     /* margin-top: 20vh; */
     border: solid 1px #b1b1b1;
     /* Add some spacing between projects */
-    max-width: 60vw;
-    max-height: 80vh;
+    width: 60vw;
+    height: 80vh;
 }
 
 .project img {

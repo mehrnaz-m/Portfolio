@@ -215,3 +215,78 @@ body {
 .tech {
     color:#6A994E;
 }
+
+@media screen and (max-width: 768px) {
+
+    .gradient-section {
+        height: 60vh; /* Adjust height for smaller screens */
+        
+    }
+
+    .title {
+        background: linear-gradient(to bottom, #d5d5d5 90%, #ffffff);
+        height: 60vh; /* Adjust height for smaller screens */
+        padding-top: 10vh; /* Increase top padding */
+        padding-bottom: 10vh; /* Increase bottom padding */
+        margin-bottom: 10vh; /* Decrease bottom margin */
+    }
+
+    #im {
+        font-size: 3rem; /* Decrease font size for smaller screens */
+        margin-top: -10vh; /* Adjust margin top */
+    }
+
+    .title h1 {
+        font-size: 4rem; /* Decrease font size for smaller screens */
+        margin-top: 0.5vh; /* Adjust margin top */
+        margin-bottom: 1.5vh; /* Adjust margin bottom */
+    }
+
+    .title p {
+        margin-top: 1.5vh; /* Adjust margin top */
+    }
+
+    .title .button-group {
+        flex-direction: column; /* Change button group direction */
+        align-items: center; /* Center-align button group */
+    }
+
+    .title a.button {
+        width: auto; /* Auto width for button */
+        margin: 1vh 0; /* Adjust margin */
+    }
+
+    .HTML-Projects {
+        margin-top: 90vh;
+    }
+
+    .project {
+        height: fit-content;
+        width: 90vw; /* Adjust width for smaller screens */
+        flex-direction: column; /* Change project layout to column */
+        align-items: center; /* Center-align project */
+        margin-bottom: 5vh; /* Adjust margin bottom */
+    }
+
+    .project img {
+        width: 100%;
+        object-fit:cover;
+        border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    /* Ensure the image covers the entire space */
+    
+    }
+    .project-info {
+        text-align: center; /* Center-align project info */
+    }
+
+    .project-info h2 {
+        font-size: 1.2rem; /* Decrease font size for smaller screens */
+        margin-bottom: 5px; /* Adjust margin bottom */
+    }
+
+    .project-info .project-link a {
+        padding: 3px 8px; /* Adjust padding */
+        font-size: 10px; /* Decrease font size for smaller screens */
+    }
+}

@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(to bottom, #dfdfdf 80%, #ffffff); /* Change the background color as desired */
+    background: linear-gradient(to bottom, #d5d5d5 80%, #ffffff); /* Change the background color as desired */
     color: #333; /* Change the text color as desired */
     padding: 20px;
     margin-bottom: 20vh;
@@ -29,27 +29,77 @@ body {
     /* pointer-events: none; Allow clicking through */
 }
 
-.title p {
+.title .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#im {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 500;
     margin-top: -20vh;
+    margin-bottom: 0;
+    margin-right: auto; /* Aligns with the right edge of h1 */
 }
 
 .title h1 {
-    font-size: 3rem; /* Larger font size */
-    margin-bottom: 20px; /* Add margin to separate from the button */
+    font-size: 8rem;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    margin-left: auto; /* Push h1 to the right */
+    margin-right: auto; /* Push h1 to the left */
+}
+
+.title p {
+    margin-top: 3vh;
+    font-size: 1rem;
+    /* margin-bottom: 5vh; */
+    margin-right: auto;
+    text-align: left;
+}
+
+#name {
+    color: #6A994E;
+}
+
+.title .button-group {
+    /* margin-top: 5vh; */
+    flex-direction: column;
+    margin-left: auto; /* Move button group to the right */
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
 }
 
 .title a.button {
+    justify-content: right;
+    margin-left: auto;
+    text-align: center;
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
+    width: 8vw;
+    padding: 10px 40px;
+    background-color: #BC4749; /* Button background color */
+    color: #F2E8CF; /* Button text color */
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    margin-bottom: 20px; /* Add margin between the button and links */
+    margin-bottom: 2vh; 
+}
+
+.title a.button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.262);
+}
+
+#button-1 {
+    background-color: #386641; /* Button background color */
+    color: #F2E8CF;
+    padding: 10px 40px;
 }
 
 .title ul {
+    justify-content: flex-end;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -57,7 +107,7 @@ body {
 
 .title ul li {
     display: inline-block;
-    margin-right: 10px; /* Adjust margin between buttons */
+    margin-right: 2vh; /* Adjust margin between buttons */
 }
 
 .title ul li:last-child {
@@ -65,7 +115,7 @@ body {
 }
 
 .HTML-Projects {
-    margin-top: 120vh;
+    margin-top: 125vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,10 +149,14 @@ body {
     /* Add shadow for a sleek look */
     margin-bottom: 30vh;
     /* margin-top: 20vh; */
-    border: solid 1px #b1b1b1;
+    /* border: solid 1px #b1b1b1; */
     /* Add some spacing between projects */
     width: 60vw;
     height: 80vh;
+}
+
+.project:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.262);
 }
 
 .project img {

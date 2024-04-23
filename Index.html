@@ -5,57 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mehrnaz's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-
-    <section>
-        <h1>Hi! I'm Mehrnaz</h1>
-        <p>If you're looking for a someone with both <span>Technical</span> and <span>Design</span> skills, I'm your
-            girl.</p>
-        <div>Lets Connect!</div>
-        <div>Navigation
-            <ul>
-                <li>Web Projects</li>
-                <li>Python Projects</li>
-            </ul>
-        </div>
+    <section class="gradient-section">
+        <section class="title">
+            <p>Hi! I'm </p>
+            <h1>Mehrnaz Miri</h1>
+            <p>If you're looking for a someone with both <span>Technical</span> and <span>Design</span> skills, I'm your
+                girl.</p>
+            <button>Lets Connect!</button>
+            <div>
+                <ul>
+                    <li>Web Projects</li>
+                    <li>Python Projects</li>
+                </ul>
+            </div>
+        </section>
     </section>
 
+
     <section class="HTML-Projects">
-        <div class="web-1">
+
+        <div class="project">
             <img src="Screenshot (33).png">
-            <h2>Treasure Hunter Minigame</h2>
-            <p><a href="https://student.csc.liv.ac.uk/~sgmmiri/treasures.html">Link</a></p>
-            <p>Technologies used: HTML, CSS, JavaScript</p>
-            <p>A fully functional treasure hunter minigame, providing an engaging user experience while showcasing
-                technical proficiency and creativity in web development. The game allows players to explore a grid-based
-                environment to find treasures while avoiding obstacles.</p>
+            <div class="project-info">
+                <h2>Treasure Hunter Minigame</h2>
+                <p><a href="https://student.csc.liv.ac.uk/~sgmmiri/treasures.html">Link</a></p>
+                <p>Technologies used: HTML, CSS, JavaScript</p>
+                <p>A fully functional treasure hunter minigame, providing an engaging user experience while showcasing
+                    technical proficiency and creativity in web development. The game allows players to explore a
+                    grid-based
+                    environment to find treasures while avoiding obstacles.</p>
+            </div>
         </div>
 
-        <div class="web-2">
+
+        <div class="project">
             <img src="Screenshot (33).png">
-            <h2>Movie Critic</h2>
-            <p><a href="https://student.csc.liv.ac.uk/~sgmmiri/treasures.html">Link</a></p>
-            <p>Technologies used: HTML, CSS, JavaScript</p>
-            <p>A fully functional treasure hunter minigame, providing an engaging user experience while showcasing
-                technical proficiency and creativity in web development. The game allows players to explore a grid-based
-                environment to find treasures while avoiding obstacles.</p>
+            <div class="project-info">
+                <h2>Movie Critic</h2>
+                <p><a href="https://student.csc.liv.ac.uk/~sgmmiri/treasures.html">Link</a></p>
+                <p>Technologies used: HTML, CSS, JavaScript</p>
+                <p>A fully functional treasure hunter minigame, providing an engaging user experience while showcasing
+                    technical proficiency and creativity in web development. The game allows players to explore a
+                    grid-based
+                    environment to find treasures while avoiding obstacles.</p>
+            </div>
         </div>
     </section>
 
     <section class="Python-Projects">
-        <div class="py-1">
+        <div class="project">
             <img src="Screenshot (33).png">
-            <h2>Heart Attack Prediction Analysis using Machine Learning</h2>
-            <p><a href="https://student.csc.liv.ac.uk/~sgmmiri/treasures.html">Link</a></p>
-            <p>Technologies used: Python, Machine Learning, Pandas, Scikit-Learn</p>
-            <p>Implemented machine learning models including KNN, Logistic Regression, and Decision Tree algorithms to
-                predict heart attack risk based on patient data.
-                Optimized Logistic Regression model achieved 86% accuracy on the test dataset, displaying strong
-                predictive capabilities and effective hyperparameter tuning.</p>
+            <div class="project-info">
+                <h2>Heart Attack Prediction Analysis using Machine Learning</h2>
+                <p><a href="https://student.csc.liv.ac.uk/~sgmmiri/treasures.html">Link</a></p>
+                <p>Technologies used: Python, Machine Learning, Pandas, Scikit-Learn</p>
+                <p>Implemented machine learning models including KNN, Logistic Regression, and Decision Tree algorithms
+                    to
+                    predict heart attack risk based on patient data.
+                    Optimized Logistic Regression model achieved 86% accuracy on the test dataset, displaying strong
+                    predictive capabilities and effective hyperparameter tuning.</p>
+            </div>
         </div>
     </section>
+
+    <script src="portfolio.js"></script>
 </body>
 
 </html>

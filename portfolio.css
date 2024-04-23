@@ -96,7 +96,7 @@ body {
 
 .project img {
     height: 100%;
-    width: 70%;
+    width: 60%;
     /* Make the image take the full width of its container */
     object-fit:cover;
     /* Ensure the image covers the entire space */

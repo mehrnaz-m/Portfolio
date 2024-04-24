@@ -335,6 +335,7 @@ body {
         /* Center-align project */
         margin-bottom: 5vh;
         /* Adjust margin bottom */
+        min-height: auto;
     }
 
     .project img {

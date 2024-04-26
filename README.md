@@ -5,8 +5,8 @@ This project is my personal portfolio website, showcasing my skills and projects
 
 - **Introduction Section:** A visually appealing introduction section welcomes visitors with a brief introduction and a call-to-action button to connect on LinkedIn.
 - **Navigation:** The navigation menu allows users to jump directly to specific sections of the portfolio, including HTML projects and Python projects.
-- **HTML Projects:** This section showcases Mehrnaz's HTML, CSS, and JavaScript projects, including a treasure hunter minigame and a movie critic website.
-- **Python Projects:** Here, visitors can explore Mehrnaz's Python projects, such as heart attack prediction analysis using machine learning.
+- **HTML Projects:** This section showcases my HTML, CSS, and JavaScript projects, including a treasure hunter minigame and a movie critic website.
+- **Python Projects:** Here, visitors can explore my Python projects, such as heart attack prediction analysis using machine learning.
 
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript

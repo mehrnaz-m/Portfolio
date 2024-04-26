@@ -73,7 +73,7 @@ body {
 
 .title .button-group {
     /* margin-top: 5vh; */
-    flex-direction: column;
+    /* flex-direction: row; */
     margin-left: auto;
     /* Move button group to the right */
     display: flex;
@@ -82,6 +82,7 @@ body {
 }
 
 .title a.button {
+    
     justify-content: right;
     margin-left: auto;
     text-align: center;
@@ -103,10 +104,13 @@ body {
 }
 
 #button-1 {
+    display: inline-block;
+    margin-left: 2vh;
     background-color: #386641;
     /* Button background color */
     color: #F2E8CF;
     padding: 10px 40px;
+
 }
 
 .title ul {

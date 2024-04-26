@@ -82,12 +82,12 @@ body {
 }
 
 .title a.button {
-    
     justify-content: right;
     margin-left: auto;
     text-align: center;
     display: inline-block;
-    width: 8vw;
+    /* min-width: 8vw; */
+    width: 110px;
     padding: 10px 40px;
     background-color: #BC4749;
     /* Button background color */
@@ -104,13 +104,10 @@ body {
 }
 
 #button-1 {
+    width: 110px;
     display: inline-block;
-    margin-left: 2vh;
     background-color: #386641;
-    /* Button background color */
     color: #F2E8CF;
-    padding: 10px 40px;
-
 }
 
 .title ul {
@@ -123,12 +120,10 @@ body {
 .title ul li {
     display: inline-block;
     margin-right: 2vh;
-    /* Adjust margin between buttons */
 }
 
 .title ul li:last-child {
     margin-right: 0;
-    /* Remove margin from last button */
 }
 
 .HTML-Projects {
@@ -263,7 +258,6 @@ body {
 
     @media screen and (max-width: 480px) {
 
-
         #im {
             margin-left: auto;
             /* Push h1 to the right */
@@ -280,9 +274,9 @@ body {
         }
 
         .title a.button {
-            width: auto;
+            width: 100px;
             /* Auto width for button */
-            margin: 1vh 0;
+            margin: 0;
             /* Adjust margin */
             margin-left: auto;
             /* Push h1 to the right */
@@ -319,7 +313,7 @@ body {
     }
 
     .title a.button {
-        width: auto;
+        width: 110px;
         /* Auto width for button */
         margin: 1vh 0;
         /* Adjust margin */

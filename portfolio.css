@@ -348,8 +348,8 @@ body {
             font-size: 2rem;
         }
 
-        h1 {
-            margin-bottom: 20px;
+        .title h1 {
+            margin-bottom: 40px;
         }
 
         .title .button-group {

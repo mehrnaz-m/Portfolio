@@ -1,5 +1,5 @@
 # Mehrnaz's Portfolio
-This project is Mehrnaz Miri's personal portfolio website, showcasing her skills and projects in web development and machine learning. The portfolio is designed to provide an engaging user experience while highlighting Mehrnaz's technical proficiency and creativity.
+This project is my personal portfolio website, showcasing my skills and projects in web development and machine learning. The portfolio is designed to provide an engaging user experience while highlighting my technical proficiency and creativity.
 
 ## Features
 
@@ -14,4 +14,4 @@ This project is Mehrnaz Miri's personal portfolio website, showcasing her skills
 - **Deployment:** Hosted on personal server
 
 ## How to Use
-To view Mehrnaz's portfolio, simply open the index.html file in a web browser. You can also access the live version of the portfolio by visiting [Mehrnaz's Portfolio](https://mehrnaz-m.github.io/Portfolio/).
+To view my portfolio, simply open the index.html file in a web browser. You can also access the live version of the portfolio by visiting [Mehrnaz's Portfolio](https://mehrnaz-m.github.io/Portfolio/).

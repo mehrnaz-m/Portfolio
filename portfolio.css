@@ -400,5 +400,9 @@ body {
             display: inline-block;
             margin-right: 0;
         }
+
+        .button-1 {
+            width: 120px;
+        }
     }
 }

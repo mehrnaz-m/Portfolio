@@ -256,34 +256,6 @@ body {
         align-items: center;
     }
 
-    @media screen and (max-width: 480px) {
-
-        #im {
-            margin-left: auto;
-            /* Push h1 to the right */
-            margin-right: auto;
-        }
-
-        .title .button-group {
-            flex-direction: column;
-            /* Change button group direction */
-            align-items: center;
-            margin-left: auto;
-            /* Push h1 to the right */
-            margin-right: auto;
-        }
-
-        .title a.button {
-            width: 100px;
-            /* Auto width for button */
-            margin: 0;
-            /* Adjust margin */
-            margin-left: auto;
-            /* Push h1 to the right */
-            margin-right: auto;
-        }
-    }
-
     #im {
         font-size: 3rem;
         /* Decrease font size for smaller screens */
@@ -365,5 +337,39 @@ body {
         /* Adjust padding */
         font-size: 10px;
         /* Decrease font size for smaller screens */
+    }
+
+    @media screen and (max-width: 480px) {
+
+        #im {
+            margin-left: auto;
+            margin-bottom: 20px;
+            margin-right: auto;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        .title .button-group {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+        }
+
+        .title a.button {
+            width: 110px;
+            /* Auto width for button */
+            margin: 0;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title ul li {
+            display: inline-block;
+            margin-right: 0;
+        }
     }
 }
